@@ -10,7 +10,7 @@
 - [2. PX4 Model Integration](#2-px4-model-integration)
 - [3. Terminal Launch Breakdown](#3-terminal-launch-breakdown)
 - [4. Bridging and Remapping Topics](#4-bridging-and-remapping-topics)
-- [5. RTAB-Map Launch (Terminal 10)](#5-rtab-map-launch-terminal-10)
+- [5. RTAB-Map Launch (Terminal 10)](#5-rtab-map-launch-terminal-11)
 - [6. ENU to NED Conversion for PX4](#6-enu-to-ned-conversion-for-px4)
 - [7. Parameter Configuration for PX4](#7-parameter-configuration-for-px4)
 - [8. TF Tree Reference](#8-tf-tree-reference)
@@ -120,7 +120,7 @@ Replace `<world>` with your actual Gazebo world name.
 
 ---
 
-## 5. RTAB-Map Launch (Terminal 10)
+## 5. RTAB-Map Launch (Terminal 11)
 
 ```bash
 ros2 launch GPS_Denied_Navigation depth_camera_simulation.launch.py \
